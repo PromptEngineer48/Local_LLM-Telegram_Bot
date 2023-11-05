@@ -78,7 +78,7 @@ async def bot_reply(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 def main() -> None:
     """Start the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("6765041438:AAHMw-hw5LM7S686W4UQbPqm_nSt4jpXH-c").build()
+    application = Application.builder().token("your-bot-token").build()
 
     # on different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start))
